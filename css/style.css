@@ -1,0 +1,571 @@
+
+/********common css*********/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url("../fonts/Satoshi-Bold.ttf");
+@import url("../fonts/Satoshi.ttf");
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/Satoshi.ttf");
+}
+p, button{
+font-family: 'Satoshi';
+
+}
+a{
+  text-decoration: none;
+  font-family: 'Satoshi';
+}
+
+
+
+
+/***********************/
+body{
+font-family: Satoshi;
+}
+
+h1, h2, h3, h4, h5, p, a {
+font-family: Satoshi;
+}
+
+
+/****************text color with underline************************/
+
+.color-txt {
+    position: relative; /* Positioning for the pseudo-element */
+    display: inline-block; /* Allows width and height */
+    color: transparent; /* Makes text color transparent for the gradient */
+    background: linear-gradient(90deg, #00B3FF 31.81%, #0047FF 93.9%); /* Gradient for the text */
+    -webkit-background-clip: text; /* Clipping to text */
+    background-clip: text; /* For non-WebKit browsers */
+}
+
+.color-txt::after {
+    content: ''; /* Creates a pseudo-element for the underline */
+    position: absolute; /* Position it directly below the text */
+    left: 0;
+    bottom: -2px; /* Adjust to position the underline */
+    height: 2px; /* Thickness of the underline */
+    width: 100%; /* Full width of the text */
+    background: linear-gradient(90deg, #00B3FF 31.81%, #0047FF 93.9%); /* Same gradient for underline */
+    z-index: -1; /* Place the underline behind the text */
+}
+
+.color-txt2 {
+    position: relative; /* Positioning for the pseudo-element */
+    display: inline-block; /* Allows width and height */
+    color: transparent; /* Makes text color transparent for the gradient */
+    background: linear-gradient(268.17deg, #00B3FF 75.53%, #0047FF 95.14%); /* Gradient for the text */
+    -webkit-background-clip: text; /* Clipping to text */
+    background-clip: text; /* For non-WebKit browsers */
+}
+.color-txt2::after {
+    content: ''; /* Creates a pseudo-element for the underline */
+    position: absolute; /* Position it directly below the text */
+    left: 0;
+    bottom: -2px; /* Adjust to position the underline */
+    height: 2px; /* Thickness of the underline */
+    width: 100%; /* Full width of the text */
+    background: llinear-gradient(268.17deg, #00B3FF 75.53%, #0047FF 95.14%); /* Same gradient for underline */
+    z-index: -1; /* Place the underline behind the text */
+}
+
+.gradient-text {
+    text-decoration: none; /* Remove default underline if any */
+}
+
+
+
+
+
+
+
+/***********banner section*************/
+
+.banner-content h1{
+    
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 44.8826px;
+line-height: 53px;
+/* or 118% */
+letter-spacing: -0.01em;
+color: #000000;
+padding-top: 70px;
+}
+
+.banner-text p{
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+color: #84828E;
+}
+
+
+.banner-img{
+ width: 100%;
+/* height: 700px;*/
+/* position: absolute;*/
+}
+.figure{
+
+/*  background-image: linear-gradient(to bottom right, #f0f0f0, #c0f0f0, #a0f0f0, #80f0f0, #60f0f0);
+  margin: 0;*/
+
+
+
+
+/*  background: linear-gradient(90deg, #FF00D6 31.81%, #00FFB2 93.9%);
+  opacity: .8;*/
+
+
+
+
+/*  box-shadow: 0px 1px 20px 20px rgb(0 0 0 / 3%), 0px 0px 20px 0px rgb(0 0 0 / 4%);*/
+
+/*-webkit-box-shadow: 9px 9px 21px 61px rgba(255,0,214,0.05);
+-moz-box-shadow: 9px 9px 21px 61px rgba(255,0,214,0.05);
+box-shadow: 9px 9px 21px 61px rgba(255,0,214,0.05);*/
+}
+
+
+
+/***********navbar section**********/
+.logo-main{
+  width: 108px;
+  height: 24px;
+}
+.logo{
+  z-index: 99;
+}
+
+
+.nav-link{
+  font-size: 16px !important;
+  color: #000 !important;
+  font-family: Satoshi;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+text-align: center;
+
+}
+
+
+.navbar-nav{
+  margin-left: auto;
+  }
+
+  ul li:hover a{
+/*    background: linear-gradient(270deg, #00B3FF 31.81%, #0047FF 93.9%);*/
+/*   background-color: #0047FF;*/
+   background-color: #ddd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+ /* .active{
+    background: linear-gradient(180deg, #FFF492 0%, #FFBA00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }*/
+
+  .bgopacityyyyy{
+/*  background-color: linear-gradient(90.81deg, #00B3FF 31.81%, #0047FF 93.9%);*/
+/*  background-color: #00B3FF;*/
+/*  background-color: #000affa3;*/
+  opacity: .8;
+  transition: background-color .5s;
+
+  background: linear-gradient(270deg, #00B3FF -50%, #0047FF 100%);
+  color: #000;
+}
+
+.fixed-top ul li a{
+color: #000 !important;
+}
+
+
+/************La solución***********/
+
+.La-solución .container{
+    border-radius: 50px;
+  box-shadow: 0px 1px 20px 20px rgb(0 0 0 / 3%), 0px 0px 20px 0px rgb(0 0 0 / 4%);
+
+}
+.La-solución h2{
+  font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 44.8826px;
+line-height: 104%;
+/* or 47px */
+text-align: center;
+letter-spacing: -0.01em;
+color: #000000;
+
+}
+
+.La-solución p{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+color: #84828E;
+
+}
+.La-solución img{
+width: auto;
+height: 154px;
+
+}
+.La-solución h4{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 104%;
+/* or 23px */
+text-align: center;
+letter-spacing: -0.01em;
+color: #000000;
+}
+
+.La-solución p{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+text-align: center;
+color: #84828E;
+}
+
+
+
+
+
+/************DamOne-Features************/
+
+.DamOne-Features img{
+  width: 100%;
+/*  min-height: 980px;*/
+/*  width: 980px;*/
+  background-size: cover;
+  background-position: center;
+}
+
+
+/****************plataforma****************/
+.Plataforma h2{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 44.8826px;
+line-height: 104%;
+/* or 47px */
+text-align: center;
+letter-spacing: -0.01em;
+color: #000000;
+}
+.Plataforma h4{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 104%;
+/* or 23px */
+text-align: center;
+letter-spacing: -0.01em;
+}
+
+.Plataforma-card, .plataforma-phone{
+ background: #F3F6FA;
+ border-radius: 25px;
+}
+
+
+.Plataforma-screen img{
+  width: 310px;
+  min-height: 210px;
+}
+
+
+
+/************Simple e Inteligente.************/
+
+.Inteligente{
+  width: 100%;
+  min-height: 825px;
+  justify-content: center;
+  background-image: url('../img/Inteligente-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.section .Inteligente{
+  justify-content: center;
+}
+
+ @media (min-width: 1400px) and (max-width: 1920px) {
+  .section .Inteligente{
+    justify-content: center;
+  }
+  .Inteligente{
+    width: 100%;
+/*    width: 1450px;*/
+   min-height: 1160px;
+ }
+.Inteligente-text h1{
+  padding-top: 130px;
+}
+
+
+}
+
+
+.Inteligente-text{
+  padding-top: 100px;
+}
+
+.Inteligente-text h1{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 54.8249px;
+line-height: 104%;
+/* or 57px */
+letter-spacing: -0.01em;
+color: #FFFFFF;
+}
+
+.Inteligente-text p{
+  font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+/* or 169% */
+color: #FFFFFF;
+}
+
+
+
+/*-- ****contact form**** --*/
+
+.contact h1{
+ padding-top: 100px;
+ font-family: Satoshi;
+ font-size: 44px;
+ font-weight: 700;
+ line-height: 54px;
+ text-align: left;
+}
+
+
+.contact-body{
+   clear: both;
+  border-radius: 50px;
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.49);*/
+  box-shadow: 0px 1px 20px 20px rgb(0 0 0 / 3%), 0px 0px 20px 0px rgb(0 0 0 / 4%);
+  background-color: white;
+
+}
+
+
+.contact #contact-submit{
+  background: linear-gradient(180deg, #00B3FF 0%, #0047FF 100%);
+
+  border-radius: 7px;
+
+justify-content: center;
+align-items: center;
+padding: 10px 40px;
+gap: 46px;
+align-items: center;
+text-align: center;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+
+}
+
+
+.contact textarea{
+background: #FFFFFF;
+border: 1px solid rgba(58, 68, 73, 0.08);
+border-radius: 10px;
+}
+
+.p-button{
+  align-items: center;
+  justify-content: center !important;
+  align-items: center;
+text-align: center;
+}
+
+
+.contact-btn{
+ background: linear-gradient(67.79deg, #6A41FF 14.18%, #D263A8 68.04%, #FF9C44 121.91%);
+border-radius: 7px;
+justify-content: center;
+align-items: center;
+padding: 10px 40px;
+gap: 46px;
+align-items: center;
+text-align: center;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+/************footer section************/
+.footer{
+/*  background-color: #2F5FB2;*/
+/*background: linear-gradient(67.79deg, #6A41FF 14.18%, #D263A8 68.04%, #FF9C44 121.91%);*/
+background: linear-gradient(270deg, #00B3FF -50%, #0047FF 100%);
+  color: #fff;
+ }
+
+.footer span:hover{
+  color: #6c2728;
+}
+
+.footer .hov:hover{
+/*  color: #6c2728 !important;*/
+color: rgba(255, 255, 255, 0.53);
+
+}
+
+.footer a{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+/* Web2023/White */
+color: #FFFFFF;
+}
+
+.footer a:hover{
+color: rgba(255, 255, 255, 0.53) !important;
+}
+.LogoFooter{
+  width: 100px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************hover effect*******************/
+.hover01 .figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover01 .figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.hover2 .figure img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover2 .figure:hover img {
+  opacity: .5;
+}
+
+.hover3 .figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*************************************/
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

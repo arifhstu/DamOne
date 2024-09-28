@@ -1,0 +1,80 @@
+
+/*@media (min-width: 768px) and (max-width: 1199px) {}*/
+ @media (min-width: 1400px) and (max-width: 1920px) {
+
+ }
+
+@media (min-width: 768px) and (max-width: 1399px) {
+
+
+ }
+
+
+@media screen and (max-width: 1199px){
+
+}
+
+@media screen and (max-width: 991px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+   
+}
+
+@media screen and (max-width: 767px){
+    .logo a img{
+        width: 50%;
+    }
+    .banner-content h1{
+    font-size: 30px !important;
+    line-height: 37px;
+    padding-top: 4px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .banner-imgg{
+    height: 481px;
+}
+
+.banner-content .figure img{
+    height: 99%;
+}
+
+
+.footer{
+    text-align: center;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+}
+.footer a{
+    text-align: center;
+    font-size: 9px !important;
+    font-weight: 500 !important;
+}
+
+
+.footer i{
+    size: 11px !important;
+}
+
+.footer{
+  font-size: 11px !important;
+}
+
+.Plataforma-card{
+    margin-left: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 575px){
+
+
+}
+
+
