@@ -161,8 +161,8 @@ text-align: center;
 
   ul li:hover a{
 /*    background: linear-gradient(270deg, #00B3FF 31.81%, #0047FF 93.9%);*/
-/*   background-color: #0047FF;*/
-   background-color: #ddd;
+   background-color: #0047FF;
+/*   background-color: #ddd;*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -179,7 +179,7 @@ text-align: center;
 
   .bgopacity{
 /*  background-color: linear-gradient(90.81deg, #00B3FF 31.81%, #0047FF 93.9%);*/
-/*  background-color: #00B3FF;*/
+  background-color: #00b3ff5c;
 /*  background-color: #000affa3;*/
 /*  opacity: .8;
   transition: background-color .5s;
@@ -551,7 +551,6 @@ color: rgba(255, 255, 255, 0.53) !important;
 /*************************************/
 
  
-
 
 
 
