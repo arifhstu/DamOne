@@ -82,9 +82,6 @@ font-family: Satoshi;
 
 
 
-
-
-
 /***********banner section*************/
 
 .banner-content h1{
@@ -159,27 +156,23 @@ text-align: center;
   margin-left: auto;
   }
 
-  ul li:hover a{
+  ul li a:hover{
 /*    background: linear-gradient(270deg, #00B3FF 31.81%, #0047FF 93.9%);*/
-   background-color: #0047FF;
+  color: #0047FF !important;
 /*   background-color: #ddd;*/
-    -webkit-background-clip: text;
+  /*  -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    text-fill-color: transparent;*/
   }
 
- /* .active{
-    background: linear-gradient(180deg, #FFF492 0%, #FFBA00 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }*/
+
 
   .bgopacity{
 /*  background-color: linear-gradient(90.81deg, #00B3FF 31.81%, #0047FF 93.9%);*/
-  background-color: #00b3ff5c;
+  background-color: #00b3ff29;
+/*  background-color: #00b3ffb5;*/
+/*  background-color: #00b3ff5c;*/
 /*  background-color: #000affa3;*/
 /*  opacity: .8;
   transition: background-color .5s;
@@ -190,6 +183,10 @@ text-align: center;
 
 .fixed-top ul li a{
 color: #000 !important;
+}
+
+.fixed-top ul li a:hover{
+color: #0047FF !important;
 }
 
 
@@ -305,41 +302,48 @@ letter-spacing: -0.01em;
 
 .Inteligente{
   width: 100%;
+/*  min-height: 100vh;*/
   min-height: 825px;
   justify-content: center;
-  background-image: url('../img/Inteligente-bg.png');
+  background-image: url('../img/Inteligente-bg1.png');
   background-size: cover;
   background-position: center;
 }
+
 .section .Inteligente{
   justify-content: center;
 }
 
+.Inteligente-bg-up img{
+  max-height: 600px;
+}
 
-/*********Responsive**************/
+.simple-center{
+  justify-content: center;
+}
+
+
+/*********Responsive start**************/
  @media (min-width: 1400px) and (max-width: 1920px) {
- /* .section .Inteligente{
-    justify-content: center;
-  }*/
+
   .Simplee{
-    padding-left: 165px;
+/*    padding-left: 160px;*/
   }
+
   .Inteligente{
-/*    width: 80%;*/
     width: 1600px;
-   min-height: 1100px;
-   
+   min-height: 1020px;   
  }
 .Inteligente-text h1{
-  padding-top: 130px;
+  padding-top: 80px;
 }
 
-
 }
+/*********Responsive end**************/
 
 
 .Inteligente-text{
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .Inteligente-text h1{
@@ -366,6 +370,10 @@ color: #FFFFFF;
 
 
 /*-- ****contact form**** --*/
+.contact {
+  position: relative;
+  top: -100px;
+}
 
 .contact h1{
  padding-top: 100px;
