@@ -27,7 +27,8 @@
 
 @media screen and (max-width: 767px){
     .logo a img{
-        width: 70%;
+/*        width: 70%;*/
+        padding-left: 10px;
     }
     .banner-content h1{
     font-size: 30px !important;
